@@ -1,0 +1,22 @@
+REGRAS DOS HOOKS
+
+Um hook nunca deve ser chamado dentro de escopo de bloco.
+Por exemplo não deve ser chamado dentro de if/else, laços de repetição, funções aninhadas, etc.
+
+Exemplo:
+const component = () => {
+  if (state !== '') {
+    useEffect(() => {
+      ...alguma coisa aqui...
+    }, [])
+  }
+}
+
+Os hooks devem sempre estar no primeiro nível dentro do componente
+const component = () => {
+  useEffect(() => {
+    if (state !== '') {
+        ...alguma coisa aqui...
+    }
+  }, [])
+}

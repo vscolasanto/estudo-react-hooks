@@ -41,7 +41,7 @@ export const UseStateComponent: React.FC = () => {
           </button>
         </div>
       </div>
-      <h1 className={rotateClass}>Texto giratório</h1>
+      <h1 className={rotateClass}>USE STATE</h1>
       <button className="button-rotate" onClick={() => handlerotate()}>
         Inverter giro
       </button>
