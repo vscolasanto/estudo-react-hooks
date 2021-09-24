@@ -1,24 +1,25 @@
-.container {
-  height: 100vh;
+.comp {
+  min-height: 250px;
+  min-width: 250px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
-.container .counter {
+.comp .counter {
   display: flex;
   flex-direction: column;
   margin-bottom: 5rem;
   align-items: center;
 }
 
-.container .counter div {
+.comp .counter div {
   display: flex;
   column-gap: 1rem;
 }
 
-.container .counter div button {
+.comp .counter div button {
   border: none;
   border-radius: 50%;
   height: 50px;
@@ -44,7 +45,7 @@
   filter: brightness(0.8);
 }
 
-.container .button-rotate {
+.comp .button-rotate {
   margin-top: 10rem;
 }
 

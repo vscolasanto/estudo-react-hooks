@@ -5,13 +5,17 @@ import './index.css';
 
 // import { UseStateComponent } from 'components/useStateComponent';
 // import { UseEffectComponent } from 'components/useEffectComponent';
-import { UseCallbackComponent } from 'components/useCallbackComponent';
+// import { UseCallbackComponent } from 'components/useCallbackComponent';
+import { UseMemoComponent } from 'components/useMemo';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <UseStateComponent /> */}
-    {/* <UseEffectComponent /> */}
-    <UseCallbackComponent />
+    <div className="container">
+      {/* <UseStateComponent /> */}
+      {/* <UseEffectComponent /> */}
+      {/* <UseCallbackComponent /> */}
+      <UseMemoComponent />
+    </div>
   </React.StrictMode>,
   document.getElementById('root'),
 );

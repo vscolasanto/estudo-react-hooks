@@ -62,7 +62,7 @@ export const UseCallbackComponent: React.FC = () => {
   console.log('pai renderizou');
 
   return (
-    <div className="container">
+    <div className="comp">
       <h1>UseCallback</h1>
       <div className="counter">
         <h3>Contador: {counter}</h3>

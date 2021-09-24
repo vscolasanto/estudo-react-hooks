@@ -29,7 +29,7 @@ export const UseStateComponent: React.FC = () => {
   };
 
   return (
-    <div className="container">
+    <div className="comp">
       <div className="counter">
         <h3>Contador: {counter}</h3>
         <div>

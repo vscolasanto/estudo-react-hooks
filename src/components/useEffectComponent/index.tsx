@@ -45,7 +45,7 @@ export const UseEffectComponent: React.FC = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="comp">
       <h1>UseEffect</h1>
       <div className="counter">
         <h3>Contador: {counter}</h3>

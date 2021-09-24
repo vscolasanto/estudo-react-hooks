@@ -1,0 +1,25 @@
+.posts {
+  padding: 20px;
+  height: 100%;
+}
+
+.posts .search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.posts input {
+  padding: 1rem;
+  background-color: rgba(68, 85, 204, 0.2);
+  color: rgb(68, 85, 204);
+  border: 2px solid rgb(68, 85, 204);
+  border-radius: 0.275rem;
+  font-size: 1rem;
+}
+
+.posts h1,
+.posts p {
+  margin-bottom: .5rem;
+}
